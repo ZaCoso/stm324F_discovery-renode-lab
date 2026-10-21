@@ -1,0 +1,25 @@
+# Generated build outputs
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+*.exe
+
+# Editor and OS files
+.vscode/*.log
+.DS_Store
+Thumbs.db
+
+# Renode logs and test reports
+output/
+*.log
+report.html
+log.html
+output.xml

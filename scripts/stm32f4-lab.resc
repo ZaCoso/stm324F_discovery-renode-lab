@@ -1,0 +1,11 @@
+# STM32F4 Discovery: first Renode laboratory
+# The firmware binary is the official Renode demo (Contiki), not original code.
+# No compiler or microcontroller board is required for this first smoke test.
+
+include @scripts/single-node/stm32f4_discovery.resc
+
+# Open a GDB remote server on localhost:3333 for later debugging exercises.
+machine StartGdbServer 3333
+
+# Execute the demo firmware in the simulated STM32F4 Discovery board.
+start
